@@ -1,0 +1,219 @@
+{
+  "brand": "YUMI BEAUTY & CLINIC",
+  "book_now": "Đặt lịch ngay",
+  "hero_title_1": "Liệu trình trẻ hóa",
+  "hero_title_2": "Không gian thư giãn",
+  "hero_title_3": "Phòng xông hơi truyền thống",
+  "hero_title_4": "Liệu trình dưỡng sinh",
+  "hero_desc_2": "Trải nghiệm dịch vụ spa cao cấp với không gian thư giãn tuyệt vời",
+  "nav": {
+    "about": "Giới thiệu",
+    "spa": "Spa",
+    "services": "Dịch vụ",
+    "space": "Không gian",
+    "news": "Tin tức",
+    "certificates": "Chứng chỉ",
+    "qa": "Q&A"
+  },
+  "language": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "zh": "中文",
+    "ko": "한국어"
+  },
+  "about": {
+    "title": "Yumi Spa",
+    "main_title": "Y SỸ TƯ VẤN DA LIỄU",
+    "sub_title": "DƯỢC MỸ PHẨM CHÍNH HÃNG",
+    "description": "Yumi Spa - Chăm sóc da khoa học",
+    "content": "Với đội ngũ y sỹ chuyên khoa da liễu giàu kinh nghiệm và cam kết sử dụng 100% dược mỹ phẩm chính hãng, Yumi Spa mang đến cho bạn giải pháp chăm sóc da toàn diện, khoa học và an toàn. Chúng tôi tin rằng mỗi làn da đều độc đáo và xứng đáng được chăm sóc một cách tận tâm nhất.",
+    "features": {
+      "feature1": {
+        "title": "Y sỹ tư vấn da liễu",
+        "description": "Đội ngũ y sỹ chuyên khoa da liễu giàu kinh nghiệm"
+      },
+      "feature2": {
+        "title": "Dược mỹ phẩm chính hãng",
+        "description": "100% sản phẩm chính hãng, có nguồn gốc xuất xứ rõ ràng"
+      },
+      "feature3": {
+        "title": "Chăm sóc da khoa học",
+        "description": "Áp dụng phương pháp chăm sóc da tiên tiến, khoa học"
+      },
+      "feature4": {
+        "title": "Tư vấn chuyên sâu",
+        "description": "Tư vấn cá nhân hóa phù hợp với từng loại da"
+      }
+    },
+    "contact": {
+      "title": "Liên hệ tư vấn",
+      "book_appointment": "Đặt lịch tư vấn",
+      "chat": "Chat Zalo"
+    },
+    "stats": {
+      "years": "Năm kinh nghiệm",
+      "clients": "Khách hàng tin tưởng",
+      "products": "Sản phẩm chính hãng"
+    }
+  },
+  "services": {
+    "main_title": "Chăm sóc da xinh",
+    "highlight": "ĐÓN TẾT XỊN",
+    "description": "Khuyến mãi ưu đãi đặc biệt dành cho bạn với các liệu trình chăm sóc da chuyên nghiệp",
+    "featured": "Dịch vụ nổi bật - Ưu đãi đặc biệt",
+    "categories": {
+      "all": "Tất cả dịch vụ",
+      "facial": "Chăm sóc mặt",
+      "anti_aging": "Chống lão hóa",
+      "skincare": "Điều trị da",
+      "hair_removal": "Triệt lông",
+      "hair_care": "Chăm sóc tóc"
+    },
+    "price_contact": "Liên hệ",
+    "book_button": "Đặt lịch",
+    "hot_badge": "HOT",
+    "cta": {
+      "title": "Sẵn sàng trải nghiệm dịch vụ chăm sóc da chuyên nghiệp?",
+      "description": "Liên hệ ngay để được tư vấn miễn phí và nhận ưu đãi đặc biệt",
+      "call": "Gọi ngay: 0971.500.522",
+      "chat": "Chat Zalo: 0917.078.719"
+    },
+    "items": [
+      {
+        "id": "face-ha",
+        "service": "Cân chỉnh khuôn mặt bằng HA",
+        "offer": "Tặng 1 buổi BAP",
+        "description": "Chỉnh full face không giới hạn HA, bảo hành 2 năm, test tan tại chỗ",
+        "price_vnd": 25099000,
+        "category": "facial",
+        "featured": true
+      },
+      {
+        "id": "hair-removal",
+        "service": "Triệt lông bất kỳ vùng nào (10 buổi hoặc 2 năm)",
+        "offer": "Tặng 1 voucher 500K",
+        "description": "Áp dụng chăm sóc mi, phun xăm, peel meso",
+        "price_vnd": null,
+        "category": "hair-removal",
+        "featured": true
+      },
+      {
+        "id": "hifu",
+        "service": "1 buổi HIFU săn chắc da",
+        "offer": "Tặng 1 buổi HIFU săn chắc da",
+        "description": "Liệu pháp cho da chảy xệ, kém săn chắc",
+        "price_vnd": 10099000,
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "hair-care",
+        "service": "Tái sinh mầm tóc khỏe",
+        "offer": "Tặng 1 buổi tái sinh mầm tóc khỏe",
+        "description": "Cho tóc rụng, yếu, hói, thưa",
+        "price_vnd": 1399000,
+        "category": "hair-care",
+        "featured": false
+      },
+      {
+        "id": "armpit",
+        "service": "Triệt nách (2 năm)",
+        "offer": "Tặng 1 gói trắng sáng nách (5 buổi)",
+        "description": "Dành cho nách thâm, mùi, muốn sáng và sạch",
+        "price_vnd": 1499000,
+        "category": "hair-removal",
+        "featured": false
+      },
+      {
+        "id": "meso-year",
+        "service": "Meso trong năm",
+        "offer": "Tặng 1 buổi BAP",
+        "description": "Trẻ hóa vùng da chảy xệ",
+        "price_vnd": [10099000, 15099000],
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "bap-4",
+        "service": "4 buổi BAP",
+        "offer": "Tặng 1 tháng chăm sóc da chuyên sâu",
+        "description": "Nâng cơ, trẻ hóa, tạo khuôn mặt V-line",
+        "price_vnd": 19990000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-1",
+        "service": "1 buổi Meso",
+        "offer": "Tặng 1 bộ mỹ phẩm căng bóng",
+        "description": "Chọn loại meso: trắng sáng, căng bóng, trẻ hóa, botox, dưỡng HA",
+        "price_vnd": 1998000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-exosome",
+        "service": "1 buổi Meso Exosome",
+        "offer": "Tặng 1 buổi Meso trắng sáng",
+        "description": "Liệu pháp da khỏe và trắng sáng",
+        "price_vnd": 5098000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "peel",
+        "service": "1 buổi Peel bong",
+        "offer": "Tặng 1 buổi chăm sóc phục hồi",
+        "description": "Cho da trắng sáng và khỏe mạnh",
+        "price_vnd": 1098000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "diamond-needle",
+        "service": "1 buổi vi kim kim cương",
+        "offer": "Tặng 1 kem phục hồi Line Repair",
+        "description": "Giảm mụn, trắng sáng, hỗ trợ da mụn",
+        "price_vnd": 1198000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "scar-separation",
+        "service": "1 buổi tách sẹo rỗ",
+        "offer": "Tặng 1 buổi Peel sẹo rỗ",
+        "description": "Dành cho da sẹo lõm, da khỏe mạnh",
+        "price_vnd": 1998000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "botox-jaw",
+        "service": "Botox thon gọn hàm HQ",
+        "offer": "Tặng 1 vùng xóa nếp nhăn",
+        "description": "Giảm nếp nhăn, tạo V-line hàm rõ",
+        "price_vnd": 3499000,
+        "category": "anti-aging",
+        "featured": false
+      },
+      {
+        "id": "skincare-1month",
+        "service": "1 tháng chăm sóc da trắng sáng",
+        "offer": "Tặng cặp mỹ phẩm trắng da cao cấp",
+        "description": "Yêu cầu da sạch mụn, biết skincare",
+        "price_vnd": 4990000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "skincare-2month",
+        "service": "2 tháng chăm sóc da mụn/thâm",
+        "offer": "Tặng mỹ phẩm chuyên dụng cơ bản",
+        "description": "Chăm sóc da mụn ẩn, viêm, trứng cá, setup dùng tại nhà",
+        "price_vnd": 7990000,
+        "category": "skincare",
+        "featured": false
+      }
+    ]
+  }
+}

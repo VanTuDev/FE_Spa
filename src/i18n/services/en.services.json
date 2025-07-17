@@ -1,0 +1,254 @@
+[
+  {
+    "id": "chan-toc",
+    "category": "Hair Removal",
+    "name": "Hairline",
+    "price_single": "120,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "2,000,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vung-mep",
+    "category": "Hair Removal",
+    "name": "Upper Lip",
+    "price_single": "80,000đ",
+    "price_10_sessions": "600,000đ",
+    "price_2_years": "1,600,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vung-cam",
+    "category": "Hair Removal",
+    "name": "Chin",
+    "price_single": "100,000đ",
+    "price_10_sessions": "800,000đ",
+    "price_2_years": "1,800,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "full-mat",
+    "category": "Hair Removal",
+    "name": "Full Face",
+    "price_single": "180,000đ",
+    "price_10_sessions": "1,500,000đ",
+    "price_2_years": "2,450,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vung-nguc",
+    "category": "Hair Removal",
+    "name": "Chest",
+    "price_single": "350,000đ",
+    "price_10_sessions": "2,000,000đ",
+    "price_2_years": "2,950,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vung-nach",
+    "category": "Hair Removal",
+    "name": "Underarms",
+    "price_single": "100,000đ",
+    "price_10_sessions": "850,000đ",
+    "price_2_years": "1,450,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "full-tay",
+    "category": "Hair Removal",
+    "name": "Full Arms",
+    "price_single": "200,000đ",
+    "price_10_sessions": "1,600,000đ",
+    "price_2_years": "2,350,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "nua-tay",
+    "category": "Hair Removal",
+    "name": "Half Arms",
+    "price_single": "100,000đ",
+    "price_10_sessions": "850,000đ",
+    "price_2_years": "1,850,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vung-bung-ron",
+    "category": "Hair Removal",
+    "name": "Stomach / Navel",
+    "price_single": "100,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "1,950,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "full-chan",
+    "category": "Hair Removal",
+    "name": "Full Legs",
+    "price_single": "250,000đ",
+    "price_10_sessions": "1,850,000đ",
+    "price_2_years": "2,850,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "nua-chan",
+    "category": "Hair Removal",
+    "name": "Half Legs",
+    "price_single": "130,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "2,000,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "nua-lung",
+    "category": "Hair Removal",
+    "name": "Half Back",
+    "price_single": "130,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "1,950,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "full-lung",
+    "category": "Hair Removal",
+    "name": "Full Back",
+    "price_single": "230,000đ",
+    "price_10_sessions": "1,800,000đ",
+    "price_2_years": "2,800,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vung-bikini",
+    "category": "Hair Removal",
+    "name": "Bikini Area",
+    "price_single": "230,000đ",
+    "price_10_sessions": "2,050,000đ",
+    "price_2_years": "2,950,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "meso-premium",
+    "category": "Complete Meso Package",
+    "name": "Meso PREMIUM",
+    "description": "Optimal skin care therapy with meso fusion, indo, Md:ceuticals...",
+    "price": "10,099,000đ",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "meso-silver",
+    "category": "Complete Meso Package",
+    "name": "Meso SILVER",
+    "description": "Optimal care for aging skin, uneven skin tone...",
+    "price": "15,099,000đ",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "meso-gold",
+    "category": "Complete Meso Package",
+    "name": "Meso GOLD",
+    "description": "Optimal for discolored skin, enlarged pores, acne scars...",
+    "price": "35,099,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "meso-diamond",
+    "category": "Complete Meso Package",
+    "name": "Meso DIAMOND",
+    "description": "Suitable for aging skin, melasma, freckles, distinct rejuvenation",
+    "price": "40,099,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "cham-soc-da-mun",
+    "category": "Acne Skin Care",
+    "name": "Acne Skin Care",
+    "description": "Detox - Acne Extraction - Iontophoresis",
+    "price": "250,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "cham-soc-da-mun-viem",
+    "category": "Acne Skin Care",
+    "name": "Inflammatory Acne Care",
+    "description": "Detox - Inflammation Treatment - Peel - Iontophoresis",
+    "price": "380,000đ",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "phi-kim-giam-tham",
+    "category": "Acne Skin Care",
+    "name": "Microneedling for Dark Spots",
+    "description": "Cleansing, microneedling, iontophoresis",
+    "price": "900,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "vi-kim-kim-cuong",
+    "category": "Acne Skin Care",
+    "name": "Diamond Microneedling",
+    "description": "Microneedling to help reduce inflammation, hidden acne",
+    "price": "1,200,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "meso-tri-mun",
+    "category": "Acne Skin Care",
+    "name": "Meso Acne Treatment",
+    "description": "Detox - Acne Treatment - Specialized Meso",
+    "price": "1,500,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "peel-tri-mun",
+    "category": "Acne Skin Care",
+    "name": "Peel Acne Treatment",
+    "description": "Cleansing - Active Ingredient Peel",
+    "price": "1,200,000đ",
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "tai-sinh-mam-toc",
+    "category": "Exclusive Technology",
+    "name": "Hair Follicle Regeneration",
+    "description": "Regenerates hair follicles for thicker hair growth",
+    "price": "1,500,000đ / session",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "tre-hoa-vung-mat",
+    "category": "Exclusive Technology",
+    "name": "Eye Area Rejuvenation",
+    "description": "Addresses dark circles, fatigue",
+    "price": "1,500,000đ / session",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  },
+  {
+    "id": "xoa-nhan-bong-mat",
+    "category": "Exclusive Technology",
+    "name": "Wrinkle/Eye Bag Removal",
+    "description": "Reduces crow's feet, firms skin",
+    "price": "1,500,000đ / session",
+    "note": "Hot",
+    "featured": true,
+    "image": "/imgs/Services/Service1.png"
+  }
+]

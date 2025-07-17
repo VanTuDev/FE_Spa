@@ -1,0 +1,188 @@
+[
+  {
+    "category": "Triệt lông",
+    "name": "Chân tóc",
+    "price_single": "120,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "2,000,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Vùng mép",
+    "price_single": "80,000đ",
+    "price_10_sessions": "600,000đ",
+    "price_2_years": "1,600,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Vùng cằm",
+    "price_single": "100,000đ",
+    "price_10_sessions": "800,000đ",
+    "price_2_years": "1,800,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Full mặt",
+    "price_single": "180,000đ",
+    "price_10_sessions": "1,500,000đ",
+    "price_2_years": "2,450,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Vùng ngực",
+    "price_single": "350,000đ",
+    "price_10_sessions": "2,000,000đ",
+    "price_2_years": "2,950,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Vùng nách",
+    "price_single": "100,000đ",
+    "price_10_sessions": "850,000đ",
+    "price_2_years": "1,450,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Full tay",
+    "price_single": "200,000đ",
+    "price_10_sessions": "1,600,000đ",
+    "price_2_years": "2,350,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "1/2 tay",
+    "price_single": "100,000đ",
+    "price_10_sessions": "850,000đ",
+    "price_2_years": "1,850,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Vùng bụng / rốn",
+    "price_single": "100,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "1,950,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Full chân",
+    "price_single": "250,000đ",
+    "price_10_sessions": "1,850,000đ",
+    "price_2_years": "2,850,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "1/2 chân",
+    "price_single": "130,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "2,000,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "1/2 lưng",
+    "price_single": "130,000đ",
+    "price_10_sessions": "1,000,000đ",
+    "price_2_years": "1,950,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Full lưng",
+    "price_single": "230,000đ",
+    "price_10_sessions": "1,800,000đ",
+    "price_2_years": "2,800,000đ"
+  },
+  {
+    "category": "Triệt lông",
+    "name": "Vùng Bikini",
+    "price_single": "230,000đ",
+    "price_10_sessions": "2,050,000đ",
+    "price_2_years": "2,950,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Meso trọn gói",
+    "name": "Meso PREMIUM",
+    "description": "Liệu pháp chăm sóc da tối ưu cùng meso fusion, indo, Md:ceuticals…",
+    "price": "10,099,000đ"
+  },
+  {
+    "category": "Meso trọn gói",
+    "name": "Meso SILVER",
+    "description": "Chăm sóc tối ưu cho da lão hoá, không đều màu...",
+    "price": "15,099,000đ"
+  },
+  {
+    "category": "Meso trọn gói",
+    "name": "Meso GOLD",
+    "description": "Tối ưu với da sạm màu, lỗ chân lông to, sẹo lõm...",
+    "price": "35,099,000đ"
+  },
+  {
+    "category": "Meso trọn gói",
+    "name": "Meso DIAMOND",
+    "description": "Phù hợp da lão hoá, nám, tàn nhang, trẻ hoá rõ nét",
+    "price": "40,099,000đ"
+  },
+  {
+    "category": "Chăm sóc da mụn",
+    "name": "Chăm sóc da mụn",
+    "description": "Detox – Lấy nhân mụn – Điện di",
+    "price": "250,000đ"
+  },
+  {
+    "category": "Chăm sóc da mụn",
+    "name": "Chăm sóc da mụn viêm",
+    "description": "Detox – Xử lý viêm – Peel – Điện di",
+    "price": "380,000đ",
+    "note": "Hot"
+  },
+  {
+    "category": "Chăm sóc da mụn",
+    "name": "Phi kim hỗ trợ giảm thâm",
+    "description": "Làm sạch, phi kim, điện di",
+    "price": "900,000đ"
+  },
+  {
+    "category": "Chăm sóc da mụn",
+    "name": "Vi kim kim cương",
+    "description": "Vi kim hỗ trợ tiêu ổ viêm, mụn ẩn",
+    "price": "1,200,000đ"
+  },
+  {
+    "category": "Chăm sóc da mụn",
+    "name": "Meso hỗ trợ trị mụn",
+    "description": "Detox – xử lý mụn – Meso đặc trị",
+    "price": "1,500,000đ"
+  },
+  {
+    "category": "Chăm sóc da mụn",
+    "name": "Peel hỗ trợ trị mụn",
+    "description": "Làm sạch – Peel hoạt chất",
+    "price": "1,200,000đ"
+  },
+  {
+    "category": "Công nghệ độc quyền",
+    "name": "Tái sinh mầm tóc",
+    "description": "Tái sinh nang tóc giúp tóc mọc dày hơn",
+    "price": "1,500,000đ / lần",
+    "note": "Hot"
+  },
+  {
+    "category": "Công nghệ độc quyền",
+    "name": "Trẻ hóa vùng mắt",
+    "description": "Khắc phục thâm mắt, mệt mỏi",
+    "price": "1,500,000đ / lần",
+    "note": "Hot"
+  },
+  {
+    "category": "Công nghệ độc quyền",
+    "name": "Xoá nhăn/ bọng mắt",
+    "description": "Giảm nhăn chân chim, săn chắc",
+    "price": "1,500,000đ / lần",
+    "note": "Hot"
+  }
+]
