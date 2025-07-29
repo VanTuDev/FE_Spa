@@ -20,11 +20,11 @@ export const ASSETS = {
 // Helper function để lấy đường dẫn tuyệt đối
 export const getAssetPath = (path: string): string => {
   // Trong môi trường development
-  if (import.meta.env.DEV) {
+  if (import.meta.env?.DEV) {
     return path;
   }
   
   // Trong môi trường production, thêm base URL nếu cần
-  const baseUrl = import.meta.env.BASE_URL || '/';
+  const baseUrl = import.meta.env?.BASE_URL || '/';
   return `${baseUrl}${path.startsWith('/') ? path.slice(1) : path}`;
 } 

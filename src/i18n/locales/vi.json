@@ -57,10 +57,12 @@
     }
   },
   "services": {
+    "title": "Dịch vụ của chúng tôi",
     "main_title": "Chăm sóc da xinh",
     "highlight": "ĐÓN TẾT XỊN",
     "description": "Khuyến mãi ưu đãi đặc biệt dành cho bạn với các liệu trình chăm sóc da chuyên nghiệp",
     "featured": "Dịch vụ nổi bật - Ưu đãi đặc biệt",
+    "menu_title": "Menu các gói dịch vụ",
     "categories": {
       "all": "Tất cả dịch vụ",
       "facial": "Chăm sóc mặt",

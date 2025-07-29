@@ -65,6 +65,7 @@
     "highlight": "특별 할인",
     "description": "전문적인 피부 관리 서비스와 함께하는 특별 프로모션",
     "featured": "인기 서비스 - 특별 할인",
+    "menu_title": "서비스 메뉴",
     "categories": {
       "all": "모든 서비스",
       "facial": "페이셜 케어",

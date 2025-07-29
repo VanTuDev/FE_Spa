@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react"
 import { useTranslation } from "react-i18next"
-import { Star, Gift, Phone, MessageCircle, Sparkles, Heart, Zap, Shield } from "lucide-react"
+import { Star, Gift, Phone, MessageCircle, Sparkles, Heart, Zap, Shield, X } from "lucide-react"
 import { Button } from "./ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import { Badge } from "./ui/badge"
-import Servicesimg from "../../public/imgs/Services/Service1.png"
+import { getAssetPath } from '../utils/assets'
 
 // Import services data
 import viServices from "../i18n/services/vi.services.json"
@@ -31,6 +31,7 @@ const Services = () => {
    const { t, i18n } = useTranslation()
    const [selectedCategory, setSelectedCategory] = useState("all")
    const [servicesData, setServicesData] = useState<ServiceItem[]>([])
+   const [previewImg, setPreviewImg] = useState<string | null>(null)
 
    // Load services data based on current language
    useEffect(() => {
@@ -75,9 +76,84 @@ const Services = () => {
 
    const featuredServices = servicesData.filter((service) => service.featured)
 
+   const menuImages = [
+      getAssetPath('/imgs/Services/menu1.png'),
+      getAssetPath('/imgs/Services/menu2.png'),
+      getAssetPath('/imgs/Services/menu3.png'),
+      getAssetPath('/imgs/Services/menu4.png'),
+      getAssetPath('/imgs/Services/menu5.png'),
+      getAssetPath('/imgs/Services/menu6.png'),
+      getAssetPath('/imgs/Services/menu7.png'),
+      getAssetPath('/imgs/Services/menu8.png'),
+      getAssetPath('/imgs/Services/menu9.png'),
+   ]
+
    return (
       <section id="services" className="py-16 bg-white scroll-mt-20">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Menu các gói dịch vụ - 3 hàng, mỗi hàng 3 ảnh, đều, căn giữa */}
+            <div className="mb-12 flex flex-col items-center">
+               <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">{t('services.menu_title')}</h3>
+               <div className="w-full max-w-7xl bg-transparent">
+                  {/* Hàng 1: 3 ảnh */}
+                  <div className="flex gap-8 justify-center mb-8 flex-wrap w-full">
+                     {menuImages.slice(0, 3).map((img, idx) => (
+                        <div
+                           key={img}
+                           className="cursor-pointer group relative flex justify-center items-center w-full max-w-xs"
+                           onClick={() => setPreviewImg(img)}
+                        >
+                           <img
+                              src={img.replace('../../public', '')}
+                              alt={`Menu ${idx + 1}`}
+                              className="w-full max-w-[350px] h-auto"
+                           />
+                        </div>
+                     ))}
+                  </div>
+                  {/* Hàng 2: 3 ảnh */}
+                  <div className="flex gap-8 justify-center mb-8 flex-wrap w-full">
+                     {menuImages.slice(3, 6).map((img, idx) => (
+                        <div
+                           key={img}
+                           className="cursor-pointer group relative flex justify-center items-center w-full max-w-xs"
+                           onClick={() => setPreviewImg(img)}
+                        >
+                           <img
+                              src={img.replace('../../public', '')}
+                              alt={`Menu ${idx + 4}`}
+                              className="w-full max-w-[350px] h-auto"
+                           />
+                        </div>
+                     ))}
+                  </div>
+                  {/* Hàng 3: 3 ảnh */}
+                  <div className="flex gap-8 justify-center flex-wrap w-full">
+                     {menuImages.slice(6, 9).map((img, idx) => (
+                        <div
+                           key={img}
+                           className="cursor-pointer group relative flex justify-center items-center w-full max-w-xs"
+                           onClick={() => setPreviewImg(img)}
+                        >
+                           <img
+                              src={img.replace('../../public', '')}
+                              alt={`Menu ${idx + 7}`}
+                              className="w-full max-w-[350px] h-auto"
+                           />
+                        </div>
+                     ))}
+                  </div>
+               </div>
+            </div>
+            {/* Modal preview ảnh menu */}
+            {previewImg && (
+               <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
+                  <div className="relative bg-white rounded-2xl shadow-2xl p-4 max-w-3xl w-full flex flex-col items-center">
+                     <button onClick={() => setPreviewImg(null)} className="absolute top-2 right-2 bg-pink-600 text-white rounded-full p-2 hover:bg-pink-700"><X className="w-5 h-5" /></button>
+                     <img src={previewImg.replace('../../public', '')} alt="Preview menu" className="rounded-xl max-h-[70vh] w-auto object-contain" />
+                  </div>
+               </div>
+            )}
             {/* Header */}
             <div className="text-center mb-12">
                <div className="inline-block">
@@ -98,7 +174,7 @@ const Services = () => {
             <div className="mb-12 flex justify-center">
                <div className="relative max-w-2xl">
                   <img
-                     src={Servicesimg}
+                     src={getAssetPath('/imgs/Services/Service1.png')}
                      alt={t('services.title')}
                      className="w-full h-auto rounded-2xl shadow-2xl"
                   />

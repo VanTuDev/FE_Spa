@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Menu } from 'lucide-react'
 import { Button } from './ui/button'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
-import LogoYumiSpa from "../../public/logo/logoYumiSpa.png"
+import { getAssetPath } from '../utils/assets'
 
 const Header = () => {
   const { t, i18n } = useTranslation()
@@ -49,7 +49,7 @@ const Header = () => {
           {/* Logo */}
           <a href="#" className="flex items-center">
             <img
-              src={LogoYumiSpa}
+              src={getAssetPath('/logo/logoYumiSpa.png')}
               alt={t('brand')}
               className="h-16 w-auto"
             />
