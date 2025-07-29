@@ -1,0 +1,224 @@
+{
+  "brand": "YUMI BEAUTY & CLINIC",
+  "book_now": "Book now",
+  "hero_title_1": "Rejuvenation Treatment",
+  "hero_desc_1": "Deep skin care with exclusive treatment",
+  "hero_title_2": "Relaxing Space",
+  "hero_desc_2": "Experience premium spa services in a peaceful environment",
+  "hero_title_3": "Traditional Sauna Room",
+  "hero_desc_3": "Relieve stress with a unique sauna therapy",
+  "hero_title_4": "Health Nourishing Therapy",
+  "hero_desc_4": "Helps restore energy and rejuvenate your skin",
+  "nav": {
+    "about": "About",
+    "spa": "Spa",
+    "services": "Services",
+    "space": "Space",
+    "news": "News",
+    "certificates": "Certificates",
+    "qa": "Q&A"
+  },
+  "language": {
+    "vi": "Vietnamese",
+    "en": "English",
+    "zh": "Chinese",
+    "ko": "Korean"
+  },
+  "about": {
+    "title": "About Yumi Spa",
+    "main_title": "DERMATOLOGY CONSULTATION",
+    "sub_title": "AUTHENTIC COSMECEUTICALS",
+    "description": "Yumi Spa - Scientific Skin Care",
+    "content": "With a team of experienced dermatology specialists and a commitment to using 100% authentic cosmeceuticals, Yumi Spa provides you with comprehensive, scientific, and safe skincare solutions. We believe that each skin is unique and deserves the most dedicated care.",
+    "features": {
+      "feature1": {
+        "title": "Dermatology Consultation",
+        "description": "Team of experienced dermatology specialists"
+      },
+      "feature2": {
+        "title": "Authentic Cosmeceuticals",
+        "description": "100% authentic products with clear origins"
+      },
+      "feature3": {
+        "title": "Scientific Skin Care",
+        "description": "Applying advanced and scientific skincare methods"
+      },
+      "feature4": {
+        "title": "In-depth Consultation",
+        "description": "Personalized consultation for each skin type"
+      }
+    },
+    "contact": {
+      "title": "Contact for Consultation",
+      "book_appointment": "Book a Consultation",
+      "chat": "Chat on Zalo"
+    },
+    "stats": {
+      "years": "Years of Experience",
+      "clients": "Trusted Clients",
+      "products": "Authentic Products"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "main_title": "Beautiful Skin Care",
+    "highlight": "SPECIAL OFFERS",
+    "description": "Special promotions for you with professional skincare treatments",
+    "featured": "Featured Services - Special Offers",
+    "menu_title": "Menu of Services",
+    "categories": {
+      "all": "All Services",
+      "facial": "Facial Care",
+      "anti_aging": "Anti-aging",
+      "skincare": "Skin Treatment",
+      "hair_removal": "Hair Removal",
+      "hair_care": "Hair Care"
+    },
+    "price_contact": "Contact Us",
+    "book_button": "Book Now",
+    "hot_badge": "HOT",
+    "cta": {
+      "title": "Ready to experience professional skincare services?",
+      "description": "Contact us now for free consultation and special offers",
+      "call": "Call Now: 0971.500.522",
+      "chat": "Chat on Zalo: 0917.078.719"
+    },
+    "items": [
+      {
+        "id": "face-ha",
+        "service": "Face Contouring with HA",
+        "offer": "Free BAP Session",
+        "description": "Full face adjustment with unlimited HA, 2-year warranty, on-site dissolution test",
+        "price_vnd": 25099000,
+        "category": "facial",
+        "featured": true
+      },
+      {
+        "id": "hair-removal",
+        "service": "Hair Removal for Any Area (10 sessions or 2 years)",
+        "offer": "Free 500K Voucher",
+        "description": "Applicable for eyelash care, tattoo, peel meso",
+        "price_vnd": null,
+        "category": "hair-removal",
+        "featured": true
+      },
+      {
+        "id": "hifu",
+        "service": "1 HIFU Skin Tightening Session",
+        "offer": "Free HIFU Skin Tightening Session",
+        "description": "Treatment for sagging skin and lack of firmness",
+        "price_vnd": 10099000,
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "hair-care",
+        "service": "Hair Follicle Regeneration",
+        "offer": "Free Hair Follicle Regeneration Session",
+        "description": "For hair loss, weak hair, baldness, thinning",
+        "price_vnd": 1399000,
+        "category": "hair-care",
+        "featured": false
+      },
+      {
+        "id": "armpit",
+        "service": "Armpit Hair Removal (2 years)",
+        "offer": "Free Armpit Whitening Package (5 sessions)",
+        "description": "For dark, odorous armpits, wanting brightness and cleanliness",
+        "price_vnd": 1499000,
+        "category": "hair-removal",
+        "featured": false
+      },
+      {
+        "id": "meso-year",
+        "service": "Meso Treatment for a Year",
+        "offer": "Free BAP Session",
+        "description": "Rejuvenation of sagging skin areas",
+        "price_vnd": [10099000, 15099000],
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "bap-4",
+        "service": "4 BAP Sessions",
+        "offer": "Free 1 Month of Intensive Skin Care",
+        "description": "Lifting, rejuvenation, V-line face shaping",
+        "price_vnd": 19990000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-1",
+        "service": "1 Meso Session",
+        "offer": "Free Set of Glowing Skin Products",
+        "description": "Choose meso type: brightening, glowing, rejuvenation, botox, HA nourishment",
+        "price_vnd": 1998000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-exosome",
+        "service": "1 Exosome Meso Session",
+        "offer": "Free Brightening Meso Session",
+        "description": "Therapy for healthy and bright skin",
+        "price_vnd": 5098000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "peel",
+        "service": "1 Peeling Session",
+        "offer": "Free Recovery Care Session",
+        "description": "For bright and healthy skin",
+        "price_vnd": 1098000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "diamond-needle",
+        "service": "1 Diamond Microneedling Session",
+        "offer": "Free Line Repair Recovery Cream",
+        "description": "Reduces acne, brightens skin, supports acne-prone skin",
+        "price_vnd": 1198000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "scar-separation",
+        "service": "1 Acne Scar Separation Session",
+        "offer": "Free Acne Scar Peel Session",
+        "description": "For pitted scars, healthy skin",
+        "price_vnd": 1998000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "botox-jaw",
+        "service": "Korean Botox for Jaw Slimming",
+        "offer": "Free Wrinkle Removal for One Area",
+        "description": "Reduces wrinkles, creates a clear V-line jaw",
+        "price_vnd": 3499000,
+        "category": "anti-aging",
+        "featured": false
+      },
+      {
+        "id": "skincare-1month",
+        "service": "1 Month of Brightening Skin Care",
+        "offer": "Free Set of Premium Skin Whitening Products",
+        "description": "Requires acne-free skin, knowledge of skincare",
+        "price_vnd": 4990000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "skincare-2month",
+        "service": "2 Months of Acne/Dark Spot Treatment",
+        "offer": "Free Basic Specialized Skincare Products",
+        "description": "Care for hidden acne, inflammation, acne, home setup",
+        "price_vnd": 7990000,
+        "category": "skincare",
+        "featured": false
+      }
+    ]
+  }
+}

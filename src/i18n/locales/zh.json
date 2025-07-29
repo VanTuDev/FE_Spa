@@ -1,0 +1,224 @@
+{
+  "brand": "YUMI 美容诊所",
+  "book_now": "立即预约",
+  "hero_title_1": "青春焕肤疗程",
+  "hero_desc_1": "深层护理肌肤，享受专属疗程",
+  "hero_title_2": "放松空间",
+  "hero_desc_2": "在宁静环境中享受高级水疗服务",
+  "hero_title_3": "传统桑拿房",
+  "hero_desc_3": "通过独特的桑拿疗法释放压力",
+  "hero_title_4": "养生疗程",
+  "hero_desc_4": "帮助恢复能量，焕发肌肤光彩",
+  "nav": {
+    "about": "关于我们",
+    "spa": "水疗",
+    "services": "服务",
+    "space": "空间",
+    "news": "新闻",
+    "certificates": "证书",
+    "qa": "问答"
+  },
+  "language": {
+    "vi": "越南语",
+    "en": "英语",
+    "zh": "中文",
+    "ko": "韩语"
+  },
+  "about": {
+    "title": "关于 Yumi Spa",
+    "main_title": "皮肤科咨询",
+    "sub_title": "正品药妆",
+    "description": "Yumi Spa - 科学护肤专家",
+    "content": "Yumi Spa 拥有经验丰富的皮肤科专家团队，并承诺使用 100% 正品药妆，为您提供全面、科学、安全的护肤方案。我们相信每一张肌肤都是独一无二的，值得最细致的呵护。",
+    "features": {
+      "feature1": {
+        "title": "皮肤科咨询",
+        "description": "经验丰富的皮肤科专家团队"
+      },
+      "feature2": {
+        "title": "正品药妆",
+        "description": "100% 正品，来源清晰可追溯"
+      },
+      "feature3": {
+        "title": "科学护肤",
+        "description": "采用先进、科学的护肤方法"
+      },
+      "feature4": {
+        "title": "个性化咨询",
+        "description": "为每种肤质提供定制化建议"
+      }
+    },
+    "contact": {
+      "title": "联系咨询",
+      "book_appointment": "预约咨询",
+      "chat": "Zalo 聊天"
+    },
+    "stats": {
+      "years": "多年经验",
+      "clients": "信赖客户",
+      "products": "正品数量"
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "main_title": "美丽肌肤护理",
+    "highlight": "特别优惠",
+    "description": "专业护肤服务的特别促销活动",
+    "featured": "特色服务 - 特别优惠",
+    "menu_title": "服务菜单",
+    "categories": {
+      "all": "所有服务",
+      "facial": "面部护理",
+      "anti_aging": "抗衰老",
+      "skincare": "皮肤治疗",
+      "hair_removal": "脱毛",
+      "hair_care": "头发护理"
+    },
+    "price_contact": "请咨询",
+    "book_button": "立即预约",
+    "hot_badge": "热门",
+    "cta": {
+      "title": "准备好体验专业的护肤服务了吗？",
+      "description": "立即联系我们获取免费咨询和特别优惠",
+      "call": "立即致电: 0971.500.522",
+      "chat": "Zalo 聊天: 0917.078.719"
+    },
+    "items": [
+      {
+        "id": "face-ha",
+        "service": "HA面部轮廓调整",
+        "offer": "赠送1次BAP疗程",
+        "description": "无限量HA全脸调整，2年保修，现场溶解测试",
+        "price_vnd": 25099000,
+        "category": "facial",
+        "featured": true
+      },
+      {
+        "id": "hair-removal",
+        "service": "任何部位脱毛（10次或2年）",
+        "offer": "赠送500K代金券",
+        "description": "适用于睫毛护理、纹身、果酸焕肤",
+        "price_vnd": null,
+        "category": "hair-removal",
+        "featured": true
+      },
+      {
+        "id": "hifu",
+        "service": "1次HIFU紧肤疗程",
+        "offer": "赠送1次HIFU紧肤疗程",
+        "description": "针对松弛和缺乏弹性的皮肤",
+        "price_vnd": 10099000,
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "hair-care",
+        "service": "毛囊再生",
+        "offer": "赠送1次毛囊再生疗程",
+        "description": "针对脱发、头发脆弱、秃顶、稀疏",
+        "price_vnd": 1399000,
+        "category": "hair-care",
+        "featured": false
+      },
+      {
+        "id": "armpit",
+        "service": "腋下脱毛（2年）",
+        "offer": "赠送腋下美白套餐（5次）",
+        "description": "适合腋下暗沉、异味、希望美白和清洁",
+        "price_vnd": 1499000,
+        "category": "hair-removal",
+        "featured": false
+      },
+      {
+        "id": "meso-year",
+        "service": "一年期美塑疗程",
+        "offer": "赠送1次BAP疗程",
+        "description": "松弛皮肤区域的年轻化",
+        "price_vnd": [10099000, 15099000],
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "bap-4",
+        "service": "4次BAP疗程",
+        "offer": "赠送1个月深层护肤",
+        "description": "提升、年轻化、V脸塑形",
+        "price_vnd": 19990000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-1",
+        "service": "1次美塑疗程",
+        "offer": "赠送亮肤护肤品套装",
+        "description": "选择美塑类型：美白、亮肤、年轻化、肉毒素、HA营养",
+        "price_vnd": 1998000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-exosome",
+        "service": "1次外泌体美塑疗程",
+        "offer": "赠送1次美白美塑疗程",
+        "description": "健康明亮肌肤疗法",
+        "price_vnd": 5098000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "peel",
+        "service": "1次果酸焕肤",
+        "offer": "赠送1次修复护理",
+        "description": "明亮健康肌肤",
+        "price_vnd": 1098000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "diamond-needle",
+        "service": "1次钻石微针疗程",
+        "offer": "赠送Line Repair修复霜",
+        "description": "减少痘痘、美白、支持痘痘肌肤",
+        "price_vnd": 1198000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "scar-separation",
+        "service": "1次痘坑分离疗程",
+        "offer": "赠送1次痘坑果酸焕肤",
+        "description": "适用于凹陷疤痕，健康肌肤",
+        "price_vnd": 1998000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "botox-jaw",
+        "service": "韩国肉毒素瘦脸",
+        "offer": "赠送1个部位除皱",
+        "description": "减少皱纹，打造清晰V脸",
+        "price_vnd": 3499000,
+        "category": "anti-aging",
+        "featured": false
+      },
+      {
+        "id": "skincare-1month",
+        "service": "1个月美白护肤",
+        "offer": "赠送高级美白护肤品套装",
+        "description": "要求无痘肌肤，了解护肤知识",
+        "price_vnd": 4990000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "skincare-2month",
+        "service": "2个月痘痘/色斑治疗",
+        "offer": "赠送基础专业护肤品",
+        "description": "护理隐藏痘痘、炎症、痤疮，家庭护理设置",
+        "price_vnd": 7990000,
+        "category": "skincare",
+        "featured": false
+      }
+    ]
+  }
+}

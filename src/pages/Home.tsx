@@ -1,24 +1,61 @@
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useMemo } from 'react'
+import Header from '../components/Header'
+import Carousel from '../components/Carousel'
+import About from '../components/About'
+import Services from '../components/Services'
+import useKeenSlider from '../hooks/useKeenSlider'
+import { getAssetPath } from '../utils/assets'
 
 const Home = () => {
+  const { t } = useTranslation()
+
+  // Sử dụng useMemo để tối ưu cấu hình slider
+  const sliderConfig = useMemo(() => ({
+    loop: true,
+    autoplay: true,
+    autoplayInterval: 5000, // 5 giây
+    slides: {
+      perView: 1,
+      spacing: 0,
+    },
+    renderMode: "performance" as const,
+    drag: true,
+    rubberband: false,
+    breakpoints: {
+      "(min-width: 768px)": {
+        slides: {
+          perView: 1,
+          spacing: 0,
+        },
+      },
+    },
+  }), []);
+
+  // 🚀 Sử dụng hook custom để lấy sliderRef & instance với autoplay
+  const [sliderRef, instanceRef] = useKeenSlider(sliderConfig);
+
+  // Sử dụng useMemo để tránh tạo lại mảng ảnh mỗi khi render
+  const carouselImages = useMemo(() => [
+    { src: getAssetPath("/imgs/Carosel/carosel1.png"), alt: t('hero_title_1') },
+    { src: getAssetPath("/imgs/Carosel/carosel2.png"), alt: t('hero_title_2') },
+  ], [t]);
+
   return (
-    <div className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
-      <h1 className="text-3xl font-bold text-primary text-center mb-6">
-        Chào mừng đến với Dịch vụ Spa
-      </h1>
-      
-      <p className="text-center text-gray-600 mb-8">
-        Trải nghiệm dịch vụ chăm sóc sức khỏe và làm đẹp cao cấp
-      </p>
-      
-      <div className="flex justify-center">
-        <Link
-          to="/register"
-          className="bg-primary text-white px-6 py-2 rounded-md"
-        >
-          Đăng ký ngay
-        </Link>
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main>
+        <Carousel
+          images={carouselImages}
+          title="YUMI BEAUTY & CLINIC"
+          subtitle={t('hero_desc_2')}
+          cta={t('book_now')}
+          instanceRef={instanceRef}
+          sliderRef={sliderRef}
+        />
+        <About />
+        <Services />
+      </main>
     </div>
   )
 }

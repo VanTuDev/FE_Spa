@@ -1,0 +1,224 @@
+{
+  "brand": "YUMI 뷰티 클리닉",
+  "book_now": "지금 예약하기",
+  "hero_title_1": "피부 회춘 프로그램",
+  "hero_desc_1": "전문적인 피부 관리와 독점 프로그램",
+  "hero_title_2": "휴식 공간",
+  "hero_desc_2": "평화로운 환경에서 고급 스파 서비스 경험",
+  "hero_title_3": "전통 사우나실",
+  "hero_desc_3": "독특한 사우나 요법으로 스트레스 해소",
+  "hero_title_4": "건강 회복 프로그램",
+  "hero_desc_4": "에너지 회복 및 피부 젊어짐 효과",
+  "nav": {
+    "about": "소개",
+    "spa": "스파",
+    "services": "서비스",
+    "space": "공간",
+    "news": "소식",
+    "certificates": "자격증",
+    "qa": "자주 묻는 질문"
+  },
+  "language": {
+    "vi": "베트남어",
+    "en": "영어",
+    "zh": "중국어",
+    "ko": "한국어"
+  },
+  "about": {
+    "title": "Yumi 스파 소개",
+    "main_title": "피부과 상담",
+    "sub_title": "정품 더마 화장품",
+    "description": "Yumi Spa - 과학적인 피부 관리",
+    "content": "경험이 풍부한 피부과 전문의 팀과 100% 정품 더마 화장품만을 사용하는 것을 원칙으로, Yumi Spa는 여러분께 포괄적이고 과학적이며 안전한 피부 관리 솔루션을 제공합니다. 우리는 모든 피부가 고유하며 세심한 관리가 필요하다고 믿습니다.",
+    "features": {
+      "feature1": {
+        "title": "피부과 상담",
+        "description": "경험이 풍부한 피부과 전문의 팀"
+      },
+      "feature2": {
+        "title": "정품 더마 화장품",
+        "description": "100% 정품 제품, 명확한 출처 보장"
+      },
+      "feature3": {
+        "title": "과학적인 피부 관리",
+        "description": "첨단 과학 기반 피부 관리 기법 적용"
+      },
+      "feature4": {
+        "title": "맞춤형 상담",
+        "description": "각 피부 타입에 맞는 개인 맞춤 상담"
+      }
+    },
+    "contact": {
+      "title": "상담 문의",
+      "book_appointment": "상담 예약",
+      "chat": "Zalo 채팅"
+    },
+    "stats": {
+      "years": "경력 연수",
+      "clients": "신뢰받는 고객 수",
+      "products": "정품 제품 수"
+    }
+  },
+  "services": {
+    "title": "서비스 안내",
+    "main_title": "아름다운 피부 관리",
+    "highlight": "특별 할인",
+    "description": "전문적인 피부 관리 서비스와 함께하는 특별 프로모션",
+    "featured": "인기 서비스 - 특별 할인",
+    "menu_title": "서비스 메뉴",
+    "categories": {
+      "all": "모든 서비스",
+      "facial": "페이셜 케어",
+      "anti_aging": "안티에이징",
+      "skincare": "피부 트리트먼트",
+      "hair_removal": "제모",
+      "hair_care": "모발 관리"
+    },
+    "price_contact": "문의 요망",
+    "book_button": "예약하기",
+    "hot_badge": "인기",
+    "cta": {
+      "title": "전문적인 피부 관리 서비스를 경험할 준비가 되셨나요?",
+      "description": "무료 상담과 특별 할인을 위해 지금 바로 연락하세요",
+      "call": "전화하기: 0971.500.522",
+      "chat": "Zalo 채팅: 0917.078.719"
+    },
+    "items": [
+      {
+        "id": "face-ha",
+        "service": "HA를 이용한 페이스 컨투어링",
+        "offer": "BAP 세션 1회 무료",
+        "description": "무제한 HA로 전체 얼굴 윤곽 조정, 2년 보증, 현장 용해 테스트",
+        "price_vnd": 25099000,
+        "category": "facial",
+        "featured": true
+      },
+      {
+        "id": "hair-removal",
+        "service": "모든 부위 제모 (10회 또는 2년)",
+        "offer": "500K 바우처 증정",
+        "description": "속눈썹 관리, 문신, 필 메소에 적용 가능",
+        "price_vnd": null,
+        "category": "hair-removal",
+        "featured": true
+      },
+      {
+        "id": "hifu",
+        "service": "HIFU 피부 탄력 세션 1회",
+        "offer": "HIFU 피부 탄력 세션 1회 무료",
+        "description": "처진 피부와 탄력 부족에 대한 치료",
+        "price_vnd": 10099000,
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "hair-care",
+        "service": "모발 모낭 재생",
+        "offer": "모발 모낭 재생 세션 1회 무료",
+        "description": "탈모, 약한 모발, 대머리, 모발 가늘어짐 치료",
+        "price_vnd": 1399000,
+        "category": "hair-care",
+        "featured": false
+      },
+      {
+        "id": "armpit",
+        "service": "겨드랑이 제모 (2년)",
+        "offer": "겨드랑이 미백 패키지 무료 (5회)",
+        "description": "어둡고 냄새나는 겨드랑이, 밝고 깨끗한 피부 원하는 분들을 위한 서비스",
+        "price_vnd": 1499000,
+        "category": "hair-removal",
+        "featured": false
+      },
+      {
+        "id": "meso-year",
+        "service": "1년 메소 트리트먼트",
+        "offer": "BAP 세션 1회 무료",
+        "description": "처진 피부 부위 회춘",
+        "price_vnd": [10099000, 15099000],
+        "category": "anti-aging",
+        "featured": true
+      },
+      {
+        "id": "bap-4",
+        "service": "BAP 세션 4회",
+        "offer": "집중 피부 관리 1개월 무료",
+        "description": "리프팅, 회춘, V라인 페이스 쉐이핑",
+        "price_vnd": 19990000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-1",
+        "service": "메소 세션 1회",
+        "offer": "광채 피부 제품 세트 증정",
+        "description": "메소 유형 선택: 미백, 광채, 회춘, 보톡스, HA 영양공급",
+        "price_vnd": 1998000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "meso-exosome",
+        "service": "엑소좀 메소 세션 1회",
+        "offer": "미백 메소 세션 1회 무료",
+        "description": "건강하고 밝은 피부를 위한 테라피",
+        "price_vnd": 5098000,
+        "category": "facial",
+        "featured": false
+      },
+      {
+        "id": "peel",
+        "service": "필링 세션 1회",
+        "offer": "회복 관리 세션 1회 무료",
+        "description": "밝고 건강한 피부를 위한 트리트먼트",
+        "price_vnd": 1098000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "diamond-needle",
+        "service": "다이아몬드 마이크로니들링 세션 1회",
+        "offer": "라인 리페어 회복 크림 증정",
+        "description": "여드름 감소, 피부 밝기 향상, 여드름 피부 지원",
+        "price_vnd": 1198000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "scar-separation",
+        "service": "여드름 흉터 분리 세션 1회",
+        "offer": "여드름 흉터 필링 세션 1회 무료",
+        "description": "함몰 흉터, 건강한 피부를 위한 트리트먼트",
+        "price_vnd": 1998000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "botox-jaw",
+        "service": "턱 슬리밍을 위한 한국 보톡스",
+        "offer": "주름 제거 1부위 무료",
+        "description": "주름 감소, 선명한 V라인 턱 형성",
+        "price_vnd": 3499000,
+        "category": "anti-aging",
+        "featured": false
+      },
+      {
+        "id": "skincare-1month",
+        "service": "미백 피부 관리 1개월",
+        "offer": "프리미엄 피부 미백 제품 세트 증정",
+        "description": "여드름 없는 피부, 스킨케어 지식 필요",
+        "price_vnd": 4990000,
+        "category": "skincare",
+        "featured": false
+      },
+      {
+        "id": "skincare-2month",
+        "service": "여드름/색소침착 치료 2개월",
+        "offer": "기본 전문 스킨케어 제품 무료",
+        "description": "숨은 여드름, 염증, 여드름, 홈 케어 설정",
+        "price_vnd": 7990000,
+        "category": "skincare",
+        "featured": false
+      }
+    ]
+  }
+}
